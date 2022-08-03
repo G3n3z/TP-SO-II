@@ -1,0 +1,301 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW DIALOGEX 0, 0, 185, 93
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    LTEXT           "TODO: layout formview",IDC_STATIC,55,42,74,8
+END
+
+IDD_FORMVIEW1 DIALOGEX 0, 0, 185, 93
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    LTEXT           "TODO: layout formview",IDC_STATIC,55,42,74,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+    END
+
+    IDD_FORMVIEW1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Portugal) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTG)
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 259, 96
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Conectar"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,146,75,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,202,75,50,14
+    EDITTEXT        IDC_EDIT1,32,34,187,14,ES_AUTOHSCROLL
+    LTEXT           "Introduza o IP ou clique em OK para ligar ao servidor local:",IDC_STATIC,33,18,188,10
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 127, 84
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Jogadores"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,36,63,50,14
+    EDITTEXT        IDC_EDIT1,49,34,21,14,ES_AUTOHSCROLL
+    LTEXT           "Numero de Jogadores:",IDC_STATIC,28,18,77,11
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 173, 77
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Jogador"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,62,56,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,117,56,50,14
+    EDITTEXT        IDC_EDIT1,33,30,100,12,ES_AUTOHSCROLL
+    LTEXT           "Nome de jogador:",IDC_STATIC,35,17,99,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 120
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New Game",                    ID_FILE_NEWGAME
+        MENUITEM "Exit",                        ID_FILE_EXIT
+    END
+    POPUP "Mode"
+    BEGIN
+        MENUITEM "Light",                       ID_MODE_LIGHT
+        MENUITEM "Dark",                        ID_MODE_DARK
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP                  "bitmap2.bmp"
+
+IDB_BITMAP3             BITMAP                  "cheioTP1.bmp"
+
+IDB_BITMAP4             BITMAP                  "water4.bmp"
+
+IDB_BITMAP5             BITMAP                  "empty0.bmp"
+
+IDB_BITMAP6             BITMAP                  "empty1.bmp"
+
+IDB_BITMAP7             BITMAP                  "empty2.bmp"
+
+IDB_BITMAP8             BITMAP                  "empty3.bmp"
+
+IDB_BITMAP9             BITMAP                  "empty4.bmp"
+
+IDB_BITMAP10            BITMAP                  "empty5.bmp"
+
+IDB_BITMAP11            BITMAP                  "water0.bmp"
+
+IDB_BITMAP12            BITMAP                  "water1.bmp"
+
+IDB_BITMAP13            BITMAP                  "water2.bmp"
+
+IDB_BITMAP14            BITMAP                  "water3.bmp"
+
+IDB_BITMAP15            BITMAP                  "water5.bmp"
+
+IDB_BITMAP16            BITMAP                  "vazio.bmp"
+
+IDB_BITMAP17            BITMAP                  "brick.bmp"
+
+IDB_BITMAP18            BITMAP                  "over.bmp"
+
+IDB_BITMAP19            BITMAP                  "brickv2.bmp"
+
+IDB_BITMAP20            BITMAP                  "empty0v2.bmp"
+
+IDB_BITMAP21            BITMAP                  "empty1v2.bmp"
+
+IDB_BITMAP22            BITMAP                  "empty2v2.bmp"
+
+IDB_BITMAP23            BITMAP                  "empty3v2.bmp"
+
+IDB_BITMAP24            BITMAP                  "empty4v2.bmp"
+
+IDB_BITMAP25            BITMAP                  "empty5v2.bmp"
+
+IDB_BITMAP26            BITMAP                  "overv2.bmp"
+
+IDB_BITMAP27            BITMAP                  "vaziov2.bmp"
+
+IDB_BITMAP28            BITMAP                  "water0v2.bmp"
+
+IDB_BITMAP29            BITMAP                  "water1v2.bmp"
+
+IDB_BITMAP30            BITMAP                  "water2v2.bmp"
+
+IDB_BITMAP31            BITMAP                  "water3v2.bmp"
+
+IDB_BITMAP32            BITMAP                  "water4v2.bmp"
+
+IDB_BITMAP33            BITMAP                  "water5v2.bmp"
+
+#endif    // Portuguese (Portugal) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
